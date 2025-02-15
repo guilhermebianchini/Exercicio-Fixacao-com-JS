@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Style+Script&family=Tiny5&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(17, 17, 16);
+}
+
+.center {
+    height: 500px;
+    width: 1000px;
+    font-family: "Outfit", serif;
+    border-radius: 10px;
+    padding: 45px;
+    background-color: darkslateblue;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 0px 10px 5px rgb(0 0 0 / 20%);
+    text-transform: uppercase;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.quadro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(73, 36, 73);
+    padding: 10px;
+    transition: 1s;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+button {
+    font-family: "Outfit", serif;
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
